@@ -35,6 +35,8 @@ public class ConfigureActivity extends AppCompatActivity {
     CheckBox isRadio;
     @InjectView(R.id.show_group)
     RadioGroup showGroup;
+    @InjectView(R.id.version)
+    TextView version;
 
     private boolean isFromMain;
 
@@ -83,6 +85,7 @@ public class ConfigureActivity extends AppCompatActivity {
             btQuxiao.setVisibility(View.GONE);
         }
 
+        version.setText("v0.0.1");
     }
 
     @OnClick(R.id.bt_queding)
