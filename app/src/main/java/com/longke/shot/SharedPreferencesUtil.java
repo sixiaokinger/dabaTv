@@ -24,6 +24,8 @@ public class SharedPreferencesUtil {
      * 保存在手机里面的文件名
      */
     public static final String FILE_NAME = "share_data";
+    public static final String KAO_HEI = "kao_hei";
+    public static final String YOU_KE = "you_ke";
     public static final String GetAPPStartData = "GetAPPStartData";
     public static final String StaySeconds = "StaySeconds";
 
